@@ -1,7 +1,7 @@
-a,b,c = input().split(" ")
-a = int(a)
-b = int(b)
-c = int(c)
+a = int(input().end="")
+b = int(input().end="")
+c = int(input().end="")
+
 
 if ( a <= b and a <= c ):
     result = a
