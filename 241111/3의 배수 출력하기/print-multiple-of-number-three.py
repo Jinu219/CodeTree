@@ -4,5 +4,5 @@ i = 1
 
 while i <= num:
     if(i % 3 == 0) :
-        print(i)
+        print(i,end=" ")
     i += 1
