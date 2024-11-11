@@ -1,6 +1,8 @@
-firstperson = input()
-secondperson = input()
-thirdperson = input()
+firstperson = input().split(" ")
+secondperson = input().split(" ")
+thirdperson = input().split(" ")
+
+result = 0
 
 if(firstperson[0] == 'Y' and int(firstperson[1]) >= 37):
     result += 1
