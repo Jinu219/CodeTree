@@ -1,9 +1,9 @@
 year = int(input())
 
 if(year % 4 == 0):
-    if(year % 400 != 0):
-        print("false")
-    else :
-        print("true")
+    if(year % 100 == 0) :
+        if(year % 400 != 0 ):
+            print("false")
+    print("true") 
 else :
     print("false")
